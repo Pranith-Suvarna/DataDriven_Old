@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-07T03:33:36 IST" name="Suite" finished-at="2022-06-07T03:33:46 IST" duration-ms="10693">
+    <groups>
+    </groups>
+    <test started-at="2022-06-07T03:33:36 IST" name="Test" finished-at="2022-06-07T03:33:46 IST" duration-ms="10693">
+      <class name="com.qa.test.DataDrivenTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.test.DataDrivenTest@7ea9e1e2]" started-at="2022-06-07T03:33:36 IST" name="setUp" finished-at="2022-06-07T03:33:45 IST" duration-ms="8535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.test.DataDrivenTest@7ea9e1e2]" started-at="2022-06-07T03:33:36 IST" name="setUp" finished-at="2022-06-07T03:33:45 IST" duration-ms="8646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.test.DataDrivenTest@7ea9e1e2]" started-at="2022-06-07T03:33:36 IST" name="setUp" finished-at="2022-06-07T03:33:45 IST" duration-ms="8748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="formTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.DataDrivenTest@7ea9e1e2]" started-at="2022-06-07T03:33:45 IST" name="formTest" data-provider="getTestData" finished-at="2022-06-07T03:33:46 IST" duration-ms="896" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pranith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suvarna]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pranithsuvarna1@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8.976373748E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[901,Bhoomi Dhara,Kamothe-400209]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20 November 1995]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Writing]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[class java.lang.ThreadLocal cannot be cast to class org.openqa.selenium.JavascriptExecutor (java.lang.ThreadLocal is in module java.base of loader 'bootstrap'; org.openqa.selenium.JavascriptExecutor is in unnamed module of loader 'app')]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: class java.lang.ThreadLocal cannot be cast to class org.openqa.selenium.JavascriptExecutor (java.lang.ThreadLocal is in module java.base of loader 'bootstrap'; org.openqa.selenium.JavascriptExecutor is in unnamed module of loader 'app')
+at com.qa.test.DataDrivenTest.formTest(DataDrivenTest.java:154)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formTest -->
+        <test-method signature="formTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.DataDrivenTest@7ea9e1e2]" started-at="2022-06-07T03:33:45 IST" name="formTest" data-provider="getTestData" finished-at="2022-06-07T03:33:46 IST" duration-ms="868" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8.976567654E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[903,Bhoomi Dhara,Kamothe-400206]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1 November 2021]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Watching]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[class java.lang.ThreadLocal cannot be cast to class org.openqa.selenium.JavascriptExecutor (java.lang.ThreadLocal is in module java.base of loader 'bootstrap'; org.openqa.selenium.JavascriptExecutor is in unnamed module of loader 'app')]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: class java.lang.ThreadLocal cannot be cast to class org.openqa.selenium.JavascriptExecutor (java.lang.ThreadLocal is in module java.base of loader 'bootstrap'; org.openqa.selenium.JavascriptExecutor is in unnamed module of loader 'app')
+at com.qa.test.DataDrivenTest.formTest(DataDrivenTest.java:154)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formTest -->
+        <test-method signature="formTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.DataDrivenTest@7ea9e1e2]" started-at="2022-06-07T03:33:45 IST" name="formTest" data-provider="getTestData" finished-at="2022-06-07T03:33:46 IST" duration-ms="868" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sunita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yadav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sunitayadav@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.876567654E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[902,Bhoomi Dhara,Kamothe-400206]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20 November 1990]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Reading]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[class java.lang.ThreadLocal cannot be cast to class org.openqa.selenium.JavascriptExecutor (java.lang.ThreadLocal is in module java.base of loader 'bootstrap'; org.openqa.selenium.JavascriptExecutor is in unnamed module of loader 'app')]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: class java.lang.ThreadLocal cannot be cast to class org.openqa.selenium.JavascriptExecutor (java.lang.ThreadLocal is in module java.base of loader 'bootstrap'; org.openqa.selenium.JavascriptExecutor is in unnamed module of loader 'app')
+at com.qa.test.DataDrivenTest.formTest(DataDrivenTest.java:154)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.test.DataDrivenTest@7ea9e1e2]" started-at="2022-06-07T03:33:46 IST" name="tearDown" finished-at="2022-06-07T03:33:46 IST" duration-ms="434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=formTest status=FAILURE method=DataDrivenTest.formTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.DataDrivenTest@7ea9e1e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.test.DataDrivenTest@7ea9e1e2]" started-at="2022-06-07T03:33:46 IST" name="tearDown" finished-at="2022-06-07T03:33:46 IST" duration-ms="418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=formTest status=FAILURE method=DataDrivenTest.formTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.DataDrivenTest@7ea9e1e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.test.DataDrivenTest@7ea9e1e2]" started-at="2022-06-07T03:33:46 IST" name="tearDown" finished-at="2022-06-07T03:33:46 IST" duration-ms="355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=formTest status=FAILURE method=DataDrivenTest.formTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.DataDrivenTest@7ea9e1e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.test.DataDrivenTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
