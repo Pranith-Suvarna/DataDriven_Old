@@ -1,6 +1,8 @@
 package com.qa.test;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -24,9 +26,9 @@ public class Ecommerce {
     driver.get("https://rahulshettyacademy.com/seleniumPractise/");
     Thread.sleep(3000);
     addItems(driver,itemsNeeded);
-   }
+  }
 
-  public static  void addItems(WebDriver driver,String[] itemsNeeded)
+  public static void addItems(WebDriver driver,String[] itemsNeeded)
 {
   int j=0;
   List<WebElement> products=driver.findElements(By.cssSelector("h4.product-name"));
@@ -48,7 +50,7 @@ List itemsNeededList = Arrays.asList(itemsNeeded);
    if(itemsNeededList.contains(formattedName))
 
   {
-     j++;
+     j++;  
 
    //click on Add to cart
    driver.findElements(By.xpath("//div[@class='product-action']/button")).get(i).click();
